@@ -1,0 +1,16 @@
+<mat-card class="card">
+    <!-- <mat-card-header>
+        <mat-card-title>{{ cardTitle }}</mat-card-title>
+    </mat-card-header> -->
+    <img mat-card-image src="{{ img }}" alt="{{ cardTitle }}" class="image">
+
+    <mat-card-actions>
+        <button mat-button (click)="loadCard();">RELOAD</button>
+        <button mat-button (click)="removeCard();">REMOVE</button>
+    </mat-card-actions>
+    <mat-card-footer *ngIf="loading">
+
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </mat-card-footer>
+
+</mat-card>

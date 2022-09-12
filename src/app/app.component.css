@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+}
+
+.content {
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 10pt;
+    gap: 20pt;
+}
+
+.buttons {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    gap: 20pt;
+}
+
+.spinner {
+    margin: 100pt;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*  alignment along the main axis. */
+    justify-content: center;
+
+    /*  alignment along the cross axis. */
+    align-items: flex-start;
+
+    list-style-type: none;
+    /* background-color: blueviolet; */
+
+    gap: 20px;
+    padding: 20px;
+}
+
+/*
+img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: scale-down;
+    vertical-align: bottom;
+} */
